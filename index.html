@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Typescript</title>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+    body {
+        background-color: wheat;
+    }
+    .container {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        margin-top: 30px;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    table tr {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    table tr th {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    table tr td {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color: darkorange;
+    }
+
+
+
+    .vacant {
+        background-color: skyblue;
+        color: wheat;
+        cursor: pointer;
+    }
+    .vacant:hover {
+        background-color: rgb(114, 177, 202);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .vagas {
+        display: -moz-inline-grid;
+         grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        color:  darkslategray;
+        font-weight: bold;
+    }
+
+    .vagas div {
+        display: inline;
+        padding: 10px;
+     }
+
+    .active {
+        background-color: greenyellow;
+        cursor: pointer;
+    }
+    .active:hover {
+        background-color: rgb(153, 226, 42);
+
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper brown darken-4">
+
+        <ul  class="center">
+            <li><a href="home.html" style="background-color: blueviolet;">Home</a></li>
+            <li><a href="reserva.html">Sua Reservar</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container vagas">
+        <div style="background-color: darkorange;">ocupado</div>
+        <div style="background-color: skyblue;">vago</div>
+        <div style="background-color: greenyellow;">sua reserva</div>
+    </div>
+
+<div class="container">
+    <h2></h2>
+    <table>
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+        <tr class="days-week"></tr>
+    
+       
+     
+    </table>
+ 
+
+    <!-- tsc --target ES5 app.ts" -->
+
+<script> var exports = {}; </script>
+<script src="app.js"></script>
+</body>
+</html>

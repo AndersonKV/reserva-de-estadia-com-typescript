@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Typescript</title>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+    body {
+        background-color: wheat;
+    }
+    .container {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        margin-top: 30px;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    table tr {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    table tr th {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    table tr td {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color: darkorange;
+    }
+
+
+
+    .occupied {
+        background-color: skyblue;
+        color: wheat;
+        cursor: pointer;
+    }
+    .occupied:hover {
+        background-color: rgb(114, 177, 202);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .vagas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        color:  darkslategray;
+        font-weight: bold;
+    }
+
+    .vagas div {
+        display: inline;
+    }
+
+    .active {
+        background-color: greenyellow;
+        cursor: pointer;
+    }
+    .active:hover {
+        background-color: rgb(153, 226, 42);
+
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper brown darken-4">
+
+        <ul  class="center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reserva.html" style="background-color: blueviolet;">Sua Reservar</a></li>
+          </ul>
+        </div>
+      </nav>
+
+   
+
+<div class="container">
+ </div>
+
+
+<script src="app-reserva.js"></script>
+</body>
+</html>
